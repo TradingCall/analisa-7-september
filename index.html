@@ -128,6 +128,47 @@
         .highlight-green { color: var(--buy-green); font-weight: 700; }
         .highlight-red { color: var(--sell-red); font-weight: 700; }
 
+        /* Support / Tip Jar Box */
+        .support-box {
+            background: linear-gradient(145deg, var(--bg-card) 0%, rgba(15,23,42,1) 100%);
+            border: 1px solid var(--accent-purple);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 0 auto 50px auto;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.1);
+        }
+        .support-box h3 {
+            color: var(--accent-purple);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .support-box p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .qr-wrapper {
+            background: #FFFFFF;
+            padding: 15px;
+            border-radius: 12px;
+            display: inline-block;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .qr-img {
+            max-width: 100%;
+            width: 220px; /* Ukuran QR Code, bisa disesuaikan */
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
         .footer { text-align: center; margin-top: 70px; padding: 40px 20px; border-top: 1px solid var(--border-color); background: var(--bg-card); }
         .footer h4 { color: #FFF; margin-bottom: 15px; font-size: 1.2rem; }
         .footer p { color: var(--text-muted); font-size: 0.95rem; max-width: 800px; margin: 0 auto 10px; line-height: 1.8; }
@@ -171,7 +212,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <img src="image_3170e2.jpg" alt="Chart BKSL" class="chart-img">
+                <img src="bksl.png" alt="Chart BKSL" class="chart-img">
                 
                 <div class="content-grid">
                     <div class="section-block">
@@ -265,7 +306,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <img src="image_316e37.jpg" alt="Chart BWPT" class="chart-img">
+                <img src="bwpt.png" alt="Chart BWPT" class="chart-img">
                 
                 <div class="content-grid">
                     <div class="section-block">
@@ -358,7 +399,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <img src="image_316e17.jpg" alt="Chart KOTA" class="chart-img">
+                <img src="kota.png" alt="Chart KOTA" class="chart-img">
                 
                 <div class="content-grid">
                     <div class="section-block">
@@ -451,7 +492,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <img src="image_317127.jpg" alt="Chart RAJA" class="chart-img">
+                <img src="raja.png" alt="Chart RAJA" class="chart-img">
                 
                 <div class="content-grid">
                     <div class="section-block">
@@ -544,7 +585,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <img src="image_317106.jpg" alt="Chart MDKA" class="chart-img">
+                <img src="mdka.png" alt="Chart MDKA" class="chart-img">
                 
                 <div class="content-grid">
                     <div class="section-block">
@@ -626,6 +667,15 @@
                 </div>
             </div>
         </section>
+
+        <!-- Support / Tip Jar Section -->
+        <div class="support-box">
+            <h3>☕ Dukung ProTrade Terminal</h3>
+            <p>Jika analisa harian ini membantu perjalanan trading dan memberikan insight positif untuk portofolio Anda, Anda bisa memberikan dukungan berupa "uang kopi" seikhlasnya. Terima kasih atas apresiasinya!</p>
+            <div class="qr-wrapper">
+                <img src="qris-ku.png" alt="QRIS Dukungan" class="qr-img">
+            </div>
+        </div>
 
         <div class="footer">
             <h4>🛡️ Risk Management Note</h4>
